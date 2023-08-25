@@ -7,27 +7,29 @@
 <link rel="stylesheet" href="theme.css">
 <link rel='stylesheet' href='roboto.css'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-	<head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X27B81H051"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X27B81H051"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-X27B81H051');
-</script>
-	</head>
-<body class="w3-light-grey">
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-X27B81H051');
+    </script>
+</head>
+<body class="w3-light-gray">
 
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
   <div class="w3-row-padding">
 
         <div class="w3-half">
+
             <div class="w3-white w3-card w3-border-theme w3-topbar w3-bottombar">
                 <div class="w3-display-container">
                     <p style="text-align:center">
@@ -45,6 +47,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                     <p>
                         <i class="fa fa-address-card-o fa-fw w3-margin-right w3-large w3-text-theme"></i>
                         Graduate, the University of Alabama. Data analyst and programmer.
+
                     </p>
                     <p>
                         <i class="fa fa-map-marker fa-fw w3-margin-right w3-large w3-text-theme"></i>
@@ -72,6 +75,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                         </li>
                         <li>Programming and analytics with Python, Base SAS and SQL
                             (in SAS EG, MySQL, PostgreSQL and Microsoft SSMS). Some experience with JavaScript / Node.js
+
                         </li>
                         <li>Kubernetes and Helm charts/templating</li>
                         <li>SCM/Git management and continuous integration/delivery with semantic based versioning</li>
@@ -196,5 +200,24 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     </div>
   </div><br>
 </div>
+
 </body>
 </html>
+
+<style>
+    html, body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Roboto", sans-serif
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li::before {
+        content: "•";
+        color: #9e1b32;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em
+    }
+</style>
